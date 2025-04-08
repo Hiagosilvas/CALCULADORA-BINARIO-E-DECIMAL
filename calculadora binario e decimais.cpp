@@ -7,7 +7,7 @@
 #include <locale.h> 
 
 
-// autor Hiago
+
 
 using namespace std;
 
@@ -29,14 +29,14 @@ void menuprincipal(){
     cout <<"\t___________________________________________\n"; 
 	cout <<"                                          " <<endl; 
 	cout <<"\t              CALCULADORA               \n\n";  
-	cout <<"\t           BINÁRIO E DECIMAL            \n\n"; 
+	cout <<"\t           BINÃRIO E DECIMAL            \n\n"; 
     cout <<"\t___________________________________________\n"; 
     cout <<"\t                                           \n\n" <<endl; 
-    cout <<"\t_______VAMOS COMEÇAR OS CALCULOS ^-^_______\n\n"; 
-    cout <<"\t| CLIQUE  (1) DECIMAL PARA BINÁRIO         | "<< endl;    
-    cout <<"\t| CLIQUE  (2) BINÁRIO PARA DECIMAL         | "<< endl; 
+    cout <<"\t_______VAMOS COMEÃ‡AR OS CALCULOS ^-^_______\n\n"; 
+    cout <<"\t| CLIQUE  (1) DECIMAL PARA BINÃRIO         | "<< endl;    
+    cout <<"\t| CLIQUE  (2) BINÃRIO PARA DECIMAL         | "<< endl; 
     cout <<"\t| CLIQUE  (3) SAIR                         | "<< endl; 
-    cout <<"\n\t DIGITE UM NÚMERO EQUIVALENTE: ";    
+    cout <<"\n\t DIGITE UM NÃšMERO EQUIVALENTE: ";    
                          cin>>opcao; 
     
     
@@ -44,7 +44,7 @@ void menuprincipal(){
 	      system ("cls");
 	      if(opcao == 1)
 		  {
-		   cout << "VOCÊ ESCOLHEU DECIMAL PARA BINÁRIO, DIGITE UM NÚMERO PARA CONVERSÃO:" <<endl;
+		   cout << "VOCÃŠ ESCOLHEU DECIMAL PARA BINÃRIO, DIGITE UM NÃšMERO PARA CONVERSÃƒO:" <<endl;
 		   cin>> decimal;
 		   
 		   for(int cont = 10; cont> -1 ; cont--)
@@ -59,7 +59,7 @@ void menuprincipal(){
 		   } 
 		   system ("cls");
 		   
-		    cout << ("EM BINÁRIO FICA: ")<< endl;
+		    cout << ("EM BINÃRIO FICA: ")<< endl;
 		    
 			     cout << "  " <<endl;
 		    for(int i = 0; i <11 ; i++)
@@ -77,14 +77,14 @@ void menuprincipal(){
 	            cout << " DIGITE (s/S) PARA CONTINUAR" << endl;	
 	            cout << " DIGITE (N)PARA ENCERRAR O PROGRAMA" << endl; 
 	 
-	    cout << "ESCOLHA UMA OPÇÃO ACIMA:  ";cin >> opic;  
+	    cout << "ESCOLHA UMA OPÃ‡ÃƒO ACIMA:  ";cin >> opic;  
 		  system("cls");
 		  }else
 		  {
 			if (opcao==2){
 				int binario=0;
 				int decimal=0;
-				cout << "VOCÊ ESCOLHEU BINÁRIO PARA DECIMAL, DIGITE UM NÚMERO PARA CONVERSÃO:" <<endl;
+				cout << "VOCÃŠ ESCOLHEU BINÃRIO PARA DECIMAL, DIGITE UM NÃšMERO PARA CONVERSÃƒO:" <<endl;
 		        cin>> binario;
 		        system("cls");
               
@@ -107,7 +107,7 @@ void menuprincipal(){
 	            cout << " DIGITE (s/S) PARA CONTINUAR" << endl;	
 	            cout << " DIGITE (N)PARA ENCERRAR O PROGRAMA" << endl; 
 	 
-	    cout << "ESCOLHA UMA OPÇÃO ACIMA:  ";cin >> opic; 
+	    cout << "ESCOLHA UMA OPÃ‡ÃƒO ACIMA:  ";cin >> opic; 
 		system("cls"); 
 			}else
 			{
@@ -118,7 +118,7 @@ void menuprincipal(){
 					contador=opcao;
 				}else {
 					cout <<"  " << endl;
-					cout << "voce digitou uma opção invalida" << endl;
+					cout << "voce digitou uma opÃ§Ã£o invalida" << endl;
 				}
 			}  
 			  
@@ -221,7 +221,7 @@ void registro() {
  
   cout <<"\t____________________________________________\n";
   cout <<"                                         " <<endl; 
-  cout <<"\t      CALCULADORA DE BINÁRIO E DECIMAL      \n\n";
+  cout <<"\t      CALCULADORA DE BINÃRIO E DECIMAL      \n\n";
   cout <<"                                         "   <<endl; 
   cout <<"\t___________________MENU_____________________\n"; 
   cout <<"\t                                            \n\n" <<endl; 
@@ -229,7 +229,7 @@ void registro() {
   cout <<"\t| CLIQUE  (1) PARA LOGIN                   | "<< endl;    
   cout <<"\t| CLIQUE  (2) PARA CADASTRO                | "<< endl; 
   cout <<"\t| CLIQUE  (3) SAIR                         | "<< endl; 
-  cout <<"\n\tDIGITE UM NÚMERO EQUIVALENTE: ";     
+  cout <<"\n\tDIGITE UM NÃšMERO EQUIVALENTE: ";     
            cin>>c; 
                           system("cls"); 
     switch(c) 
@@ -250,7 +250,7 @@ void registro() {
  
       default: 
        
-	       	cout <<"\t OPÇÃO INVALIDA!!" << endl; 
+	       	cout <<"\t OPÃ‡ÃƒO INVALIDA!!" << endl; 
 	}
      	 
  return 0; 	 
